@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{828BFB7E-04D3-41A7-88C2-D0309D757FF4}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchGroup Name="Footsteps_Material" ID="{1254354D-7FD4-46E2-B833-EDAF6951D735}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Hollow" ID="{C4F48C1C-0C23-4B83-9C17-CB9DD745B3C7}"/>
 						<Switch Name="Filled" ID="{CFB85657-DA63-4EF4-8EBD-B62D1F206F8E}"/>

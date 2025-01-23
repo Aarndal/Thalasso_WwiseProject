@@ -3,8 +3,19 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A5070312-FDAF-4FDA-9C2C-157DF7E55198}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{509CC69D-2FD5-4914-8D4A-9EB6A1187905}">
-					<ObjectInclusionList/>
+				<SoundBank Name="Player" ID="{509CC69D-2FD5-4914-8D4A-9EB6A1187905}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFoot" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Opening" ID="{343CE991-AC7D-4BC0-8BBB-9A25099A3401}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Electronics_Room" ID="{52ADAACB-9EBB-4423-B4FE-BE16C49DB616}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Electronics_Room" ID="{1EE75BAB-86D5-48C1-AB8C-9F9FF816A8FB}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

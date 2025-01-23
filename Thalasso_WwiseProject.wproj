@@ -25,7 +25,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="GenerateSoundBankXML" Type="bool" Value="False" /><Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" /><Property Name="GenerateSoundBankJSON" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../Thalasso/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="GenerateSoundBankXML" Type="bool" Value="False" /><Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" /><Property Name="GenerateSoundBankJSON" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../../Thalasso/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
@@ -58,7 +58,23 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.1|Build=8691|VersionName=v2024.1.1|Config=Release" />
 			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEzMDk5IiBtYXNrPSJUSlhWMjc1MSIgZW5jPSIwIj48bGlj&#xA;ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwz&#xA;LDEwLDE0IiBleHBpcmVzPSIyMDI1LTAyLTE3IiAgLz48bGljZW5zZSBpZD0iMjEi&#xA;IG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCwx&#xA;NCIgZXhwaXJlcz0iMjAyNS0wMi0xNyIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1l&#xA;PSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwLDE0&#xA;IiBleHBpcmVzPSIyMDI1LTAyLTE3IiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9&#xA;IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjUtMDIt&#xA;MTciICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0&#xA;eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCwxNCIgZXhwaXJlcz0iMjAyNS0wMi0x&#xA;NyIgIC8+PC9wcm9qZWN0Pg==|QBD602RI0lJK0dGvpuBUgsn1qZ20Nidnyp/xD1f&#xA;Q+5ZTrEs7gVh4a8ol8ONX9fkz9dzoMmGGxh7FMpNiAKlBnEI4LqKlo/3tPy2h+H8&#xA;ET6rGB7XqZke1Q8cYlxqdIERpNNf3hS8sfVGYYBV6AtwLaGesxvwsmVebarXVbv3&#xA;/JEY+XLMQ2Rb03bFIk81dEU/4j7f0Vf7+YJkx/EHqdrEMPbxrZarGGu1Mp16eQsX&#xA;aCURqxVw7MMDPWUBAsdUaNvPc1tD/osV2KQcBXa3SStMpxQZscnFTR1b3M98vczO&#xA;KzfJJsHeqvSfAOfu6Y+7yvGVDKp7VCMFYYiB1IgsHPmBhPg==&#xA;" />
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEzMDk5IiBtYXNrPSJUSlhWMjc1MSIgZW5jPSIwIj48bGlj
+ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwz
+LDEwLDE0IiBleHBpcmVzPSIyMDI1LTAyLTE3IiAgLz48bGljZW5zZSBpZD0iMjEi
+IG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCwx
+NCIgZXhwaXJlcz0iMjAyNS0wMi0xNyIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1l
+PSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDEwLDE0
+IiBleHBpcmVzPSIyMDI1LTAyLTE3IiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9
+IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjUtMDIt
+MTciICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0
+eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMywxMCwxNCIgZXhwaXJlcz0iMjAyNS0wMi0x
+NyIgIC8+PC9wcm9qZWN0Pg==|QBD602RI0lJK0dGvpuBUgsn1qZ20Nidnyp/xD1f
+Q+5ZTrEs7gVh4a8ol8ONX9fkz9dzoMmGGxh7FMpNiAKlBnEI4LqKlo/3tPy2h+H8
+ET6rGB7XqZke1Q8cYlxqdIERpNNf3hS8sfVGYYBV6AtwLaGesxvwsmVebarXVbv3
+/JEY+XLMQ2Rb03bFIk81dEU/4j7f0Vf7+YJkx/EHqdrEMPbxrZarGGu1Mp16eQsX
+aCURqxVw7MMDPWUBAsdUaNvPc1tD/osV2KQcBXa3SStMpxQZscnFTR1b3M98vczO
+KzfJJsHeqvSfAOfu6Y+7yvGVDKp7VCMFYYiB1IgsHPmBhPg==
+"/>
 			</PropertyList>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">

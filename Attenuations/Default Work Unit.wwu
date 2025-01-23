@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{303553E2-FE2F-4440-BB57-57CF627E1B3B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="Monster_Attenuation" ID="{AF88FA0A-8052-4EA9-8DE8-42AA0B831D65}" ShortID="490281417">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -18,7 +21,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>24.703165</XPos>
+											<YPos>-3.07168</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>26.71504</XPos>
+											<YPos>-9.35956</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

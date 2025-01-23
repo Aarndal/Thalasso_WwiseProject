@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Door_Opening" ID="{343CE991-AC7D-4BC0-8BBB-9A25099A3401}">
+					<ChildrenList>
+						<Action Name="" ID="{45629345-3A2B-4FF5-AB4E-2427F89CA696}" ShortID="609215043">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Opening" ID="{C056009C-C41C-4A52-94DD-73C94CDF3CCF}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}">
+					<ChildrenList>
+						<Action Name="" ID="{BE074A80-F8DC-461C-9097-05A3BA4800C2}" ShortID="319262584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Closing" ID="{3667E37E-6838-4D2A-806F-900202EEC618}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Electronics_Room" ID="{1EE75BAB-86D5-48C1-AB8C-9F9FF816A8FB}">
+					<ChildrenList>
+						<Action Name="" ID="{E46831F1-B726-44D2-A27D-07CEA47772F2}" ShortID="177507875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electronics Room" ID="{9086739E-C5AF-464F-97AF-5976EE76C927}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
