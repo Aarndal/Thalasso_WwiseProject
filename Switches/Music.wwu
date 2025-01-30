@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{338A2C65-90C7-4878-BD83-ECE500481F31}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Music" ID="{338A2C65-90C7-4878-BD83-ECE500481F31}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Rooms" ID="{62230993-6C67-4FE2-8D05-AD5CEE6AEC0F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Electronics_Room" ID="{777BAB1E-822B-4410-A791-B49DFE853BA4}"/>
+						<Switch Name="Observation_Deck" ID="{BAD3C4C9-5C30-40EC-A81C-5E90B695D335}"/>
+						<Switch Name="Laboratory1" ID="{17443795-CF19-4B95-B305-29745B962772}"/>
+						<Switch Name="Laboratory2" ID="{02DBC95D-FC48-47F9-BB69-E0ED7F7FE084}"/>
+						<Switch Name="Security_Room" ID="{6438A042-21B3-4947-BE46-83682E24F67E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

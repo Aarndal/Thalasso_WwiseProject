@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1872262486",
+    "Type": "User",
+    "GUID": "{A4958778-EA2A-4423-93CB-C375A77E492D}",
+    "Language": "SFX",
+    "Hash": "{8E663CAB-E5E3-A142-C5F4-A05470347D5B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Riddles",
+    "ShortName": "Riddles",
+    "Path": "Riddles.bnk"
+   }
+  ],
+  "FileHash": "{A4CB9F2D-227F-96F2-873B-06D54992CE61}"
+ }
+}

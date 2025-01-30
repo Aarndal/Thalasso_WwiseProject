@@ -1,0 +1,145 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1327972334",
+    "Type": "User",
+    "GUID": "{509CC69D-2FD5-4914-8D4A-9EB6A1187905}",
+    "Language": "SFX",
+    "Hash": "{B3D5490E-861E-8D94-347A-587901BFF8C0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSounds",
+    "ShortName": "PlayerSounds",
+    "Path": "PlayerSounds.bnk",
+    "Media": [
+     {
+      "Id": "296358285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door Opening Placeholder.wav",
+      "CachePath": "BA/{BA086E66-D323-F6C6-F62D-6F1B6DB78307}.wem"
+     },
+     {
+      "Id": "350783199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hollow Footstep Placeholder.wav",
+      "CachePath": "E2/{E286AEEB-284B-2745-907B-929512160FB0}.wem"
+     },
+     {
+      "Id": "720006300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Filled Footstep Placeholder.wav",
+      "CachePath": "BB/{BBB3C061-547F-9F34-6AC6-A15037985F6F}.wem"
+     },
+     {
+      "Id": "997799082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door Closing Placeholder.wav",
+      "CachePath": "B7/{B752435C-9D3F-01DC-3DAE-E17BE2921F28}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1591781701",
+      "Name": "Door_Closing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Door_Closing",
+      "GUID": "{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.0933332",
+      "DurationMax": "3.0933332",
+      "MediaRefs": [
+       {
+        "Id": "997799082"
+       }
+      ]
+     },
+     {
+      "Id": "2589897592",
+      "Name": "Door_Opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Door_Opening",
+      "GUID": "{343CE991-AC7D-4BC0-8BBB-9A25099A3401}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.552",
+      "DurationMax": "1.552",
+      "MediaRefs": [
+       {
+        "Id": "296358285"
+       }
+      ]
+     },
+     {
+      "Id": "2664667690",
+      "Name": "PlayerFoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerFoot",
+      "GUID": "{E5F43595-4124-4B13-B64B-F6B39F19F673}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5358854",
+      "DurationMax": "2.6453333",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1682461626",
+         "Id": "815678804",
+         "GUID": "{C4F48C1C-0C23-4B83-9C17-CB9DD745B3C7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "350783199"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1682461626",
+         "Id": "1735970877",
+         "GUID": "{CFB85657-DA63-4EF4-8EBD-B62D1F206F8E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "720006300"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1682461626",
+      "Name": "Footsteps_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Material",
+      "GUID": "{1254354D-7FD4-46E2-B833-EDAF6951D735}",
+      "Switches": [
+       {
+        "Id": "815678804",
+        "Name": "Hollow",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Material\\Hollow",
+        "GUID": "{C4F48C1C-0C23-4B83-9C17-CB9DD745B3C7}"
+       },
+       {
+        "Id": "1735970877",
+        "Name": "Filled",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps_Material\\Filled",
+        "GUID": "{CFB85657-DA63-4EF4-8EBD-B62D1F206F8E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B6A7EF1C-4C92-42AC-1D3A-C951C27A5FCB}"
+ }
+}

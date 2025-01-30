@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2805599468",
+    "Type": "User",
+    "GUID": "{DA46290E-9FA1-418E-8B57-C1FE453C49E4}",
+    "Language": "SFX",
+    "Hash": "{454D69AE-8030-D7CC-FF3F-102D119D83E6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MenuSounds",
+    "ShortName": "MenuSounds",
+    "Path": "MenuSounds.bnk"
+   }
+  ],
+  "FileHash": "{4E06DB2F-D37E-B2F2-FC8B-C3375F46BF73}"
+ }
+}

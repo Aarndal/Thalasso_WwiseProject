@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FE6694C4-682F-4D44-8B7B-441C25964FB7}" SchemaVersion="123">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{FE6694C4-682F-4D44-8B7B-441C25964FB7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FE6694C4-682F-4D44-8B7B-441C25964FB7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Hallway_Reverb" ID="{74FBB5A2-4DF1-4A36-8960-6AFE6B59297D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="Electronics_Room_Verb" ID="{9290EE70-631E-4D5F-865B-5962826E32EC}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

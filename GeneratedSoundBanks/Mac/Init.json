@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D556D509-BED6-0E1A-9155-4E971EB6547A}",
+    "Hash": "{80565449-BC35-6A82-0941-292E56AB5DC9}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "430564736",
+       "Name": "Electronics_Room_Verb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Electronics_Room_Verb",
+       "GUID": "{9290EE70-631E-4D5F-865B-5962826E32EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,13 +46,114 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{8E25AE5B-0E21-4848-8AA0-C1DF6F23F289}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{57D43D48-3132-4952-9DD4-1155740A8B8B}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "65866301",
+      "Name": "Starting_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Starting_Room",
+      "GUID": "{8AEE02B6-1E7B-4A51-ACC0-6B9A4C095347}"
+     },
+     {
+      "Id": "766371778",
+      "Name": "Laboratory",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Laboratory",
+      "GUID": "{02955DE8-8756-43EC-942D-2B9F4F4C2F36}"
+     },
+     {
+      "Id": "1804753788",
+      "Name": "Escape_Pod",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Escape_Pod",
+      "GUID": "{0569BD9D-8F15-48B5-8D80-9B3FB798946C}"
+     },
+     {
+      "Id": "2572679272",
+      "Name": "Electronics_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Electronics_Room",
+      "GUID": "{F33930FF-BDC7-4AAA-8BE8-3FC4C1F3B28B}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "430564736"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3464770571",
+      "Name": "Observation_Deck",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Observation_Deck",
+      "GUID": "{D45CF401-745F-4FF7-B5F9-362DDEF0B5E0}"
+     },
+     {
+      "Id": "3965376459",
+      "Name": "Security_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Security_Room",
+      "GUID": "{9414E044-C4C0-456F-962D-6BDF517D0657}"
+     },
+     {
+      "Id": "4053971408",
+      "Name": "Hallways",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Hallways",
+      "GUID": "{5A762F47-FA94-4486-A675-6B10FF14D24A}"
      }
     ],
     "SwitchGroups": [
+     {
+      "Id": "1359360203",
+      "Name": "Rooms",
+      "ObjectPath": "\\Switches\\Music\\Rooms",
+      "GUID": "{62230993-6C67-4FE2-8D05-AD5CEE6AEC0F}",
+      "Switches": [
+       {
+        "Id": "2572679272",
+        "Name": "Electronics_Room",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Electronics_Room",
+        "GUID": "{777BAB1E-822B-4410-A791-B49DFE853BA4}"
+       },
+       {
+        "Id": "2864961108",
+        "Name": "Laboratory2",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Laboratory2",
+        "GUID": "{02DBC95D-FC48-47F9-BB69-E0ED7F7FE084}"
+       },
+       {
+        "Id": "2864961111",
+        "Name": "Laboratory1",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Laboratory1",
+        "GUID": "{17443795-CF19-4B95-B305-29745B962772}"
+       },
+       {
+        "Id": "3464770571",
+        "Name": "Observation_Deck",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Observation_Deck",
+        "GUID": "{BAD3C4C9-5C30-40EC-A81C-5E90B695D335}"
+       },
+       {
+        "Id": "3965376459",
+        "Name": "Security_Room",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Security_Room",
+        "GUID": "{6438A042-21B3-4947-BE46-83682E24F67E}"
+       }
+      ]
+     },
      {
       "Id": "1682461626",
       "Name": "Footsteps_Material",
@@ -66,6 +177,6 @@
     ]
    }
   ],
-  "FileHash": "{80115520-5C48-3044-21B8-44424777058C}"
+  "FileHash": "{ADD33441-81E4-68E5-7729-70194111408D}"
  }
 }

@@ -1,5 +1,19 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	65866301	Starting_Room			\Default Work Unit\Master Audio Bus\SFX\Starting_Room	
+	766371778	Laboratory			\Default Work Unit\Master Audio Bus\SFX\Laboratory	
+	1804753788	Escape_Pod			\Default Work Unit\Master Audio Bus\SFX\Escape_Pod	
+	2572679272	Electronics_Room			\Default Work Unit\Master Audio Bus\SFX\Electronics_Room	
+	3464770571	Observation_Deck			\Default Work Unit\Master Audio Bus\SFX\Observation_Deck	
+	3965376459	Security_Room			\Default Work Unit\Master Audio Bus\SFX\Security_Room	
+	4053971408	Hallways			\Default Work Unit\Master Audio Bus\SFX\Hallways	
+
+Effect plug-ins	ID	Name	Type				Notes
+	430564736	Electronics_Room_Verb	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

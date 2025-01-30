@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1872262486",
+    "Type": "User",
+    "GUID": "{A4958778-EA2A-4423-93CB-C375A77E492D}",
+    "Language": "SFX",
+    "Hash": "{8E663CAB-E5E3-A142-C5F4-A05470347D5B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Riddles",
+    "ShortName": "Riddles",
+    "Path": "Riddles.bnk"
+   }
+  ],
+  "FileHash": "{893D2620-6E1B-5BF8-3FD9-74E4CA7DECBC}"
+ }
+}

@@ -3,7 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A5070312-FDAF-4FDA-9C2C-157DF7E55198}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Player" ID="{509CC69D-2FD5-4914-8D4A-9EB6A1187905}">
+				<SoundBank Name="PlayerSounds" ID="{509CC69D-2FD5-4914-8D4A-9EB6A1187905}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerFoot" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
@@ -12,10 +12,31 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Electronics_Room" ID="{52ADAACB-9EBB-4423-B4FE-BE16C49DB616}">
+				<SoundBank Name="Music" ID="{52ADAACB-9EBB-4423-B4FE-BE16C49DB616}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Electronics_Room" ID="{1EE75BAB-86D5-48C1-AB8C-9F9FF816A8FB}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MusicEvents" ID="{CC7409E8-DAF0-4E14-8D6D-47D361CB8A8B}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Room_Music" ID="{ED738CCE-4F0E-4EA0-8108-A34A66524703}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MonsterSounds" ID="{7A612667-1EAF-43F5-93B2-EF1DDE5CE2EA}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Enviroment" ID="{6999CB4C-C79E-4AC3-B354-55A4EC799272}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Riddles" ID="{A4958778-EA2A-4423-93CB-C375A77E492D}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MenuSounds" ID="{DA46290E-9FA1-418E-8B57-C1FE453C49E4}">
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

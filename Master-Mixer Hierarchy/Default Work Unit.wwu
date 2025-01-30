@@ -9,6 +9,36 @@
 							<ObjectRef Name="System" ID="{9F77A550-6FD5-4AC7-9C69-396A104133A5}" WorkUnitID="{139342A9-2812-4231-B6B3-371B5FEC08F1}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{57D43D48-3132-4952-9DD4-1155740A8B8B}"/>
+						<Bus Name="SFX" ID="{8E25AE5B-0E21-4848-8AA0-C1DF6F23F289}">
+							<ChildrenList>
+								<AuxBus Name="Hallways" ID="{5A762F47-FA94-4486-A675-6B10FF14D24A}"/>
+								<AuxBus Name="Electronics_Room" ID="{F33930FF-BDC7-4AAA-8BE8-3FC4C1F3B28B}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{5058D094-A61E-4A78-8305-8FB718012A5C}" ShortID="965959950">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Electronics_Room_Verb" ID="{9290EE70-631E-4D5F-865B-5962826E32EC}" WorkUnitID="{FE6694C4-682F-4D44-8B7B-441C25964FB7}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Observation_Deck" ID="{D45CF401-745F-4FF7-B5F9-362DDEF0B5E0}"/>
+								<AuxBus Name="Laboratory" ID="{02955DE8-8756-43EC-942D-2B9F4F4C2F36}"/>
+								<AuxBus Name="Security_Room" ID="{9414E044-C4C0-456F-962D-6BDF517D0657}"/>
+								<AuxBus Name="Starting_Room" ID="{8AEE02B6-1E7B-4A51-ACC0-6B9A4C095347}"/>
+								<AuxBus Name="Escape_Pod" ID="{0569BD9D-8F15-48B5-8D80-9B3FB798946C}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

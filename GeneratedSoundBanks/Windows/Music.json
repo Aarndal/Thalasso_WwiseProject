@@ -1,0 +1,298 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{52ADAACB-9EBB-4423-B4FE-BE16C49DB616}",
+    "Language": "SFX",
+    "Hash": "{C7A51D25-DED8-F043-2DC3-C6FFD19A1FA1}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "5698187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electronics Room.wav",
+      "CachePath": "5D/{5D8A2D2E-156F-B08C-3E5C-19274E0EC4FD}.wem"
+     },
+     {
+      "Id": "88668302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 4.wav",
+      "CachePath": "EE/{EE727175-F646-4D39-B1A2-A63A55C9265B}.wem"
+     },
+     {
+      "Id": "91275724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 6.wav",
+      "CachePath": "FD/{FD66BD75-4331-9C1A-D61F-FCD1D4B02471}.wem"
+     },
+     {
+      "Id": "150121206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 8.wav",
+      "CachePath": "B9/{B9AA7C03-B33C-7B3D-BCCA-C5A3E0D5FB33}.wem"
+     },
+     {
+      "Id": "176409418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 5.wav",
+      "CachePath": "3A/{3AE3608C-A5A4-050E-0743-6A032398689E}.wem"
+     },
+     {
+      "Id": "195461385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Laboratory Spooky.wav",
+      "CachePath": "30/{308D3E7E-CC76-8C9A-8295-93581B8E592C}.wem"
+     },
+     {
+      "Id": "233156820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Security Room.wav",
+      "CachePath": "0F/{0FB9D48E-EF23-B037-ACBD-7172A59FE61A}.wem"
+     },
+     {
+      "Id": "246746159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 1.wav",
+      "CachePath": "89/{8940977B-45BB-7C03-DACE-8B228D4F8E36}.wem"
+     },
+     {
+      "Id": "387013990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 7.wav",
+      "CachePath": "25/{258372A2-2E8C-6354-C1EC-4C41AB3659F8}.wem"
+     },
+     {
+      "Id": "566940429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Laboratory Normal.wav",
+      "CachePath": "84/{84D09C88-146E-C582-FDD8-566F52B60475}.wem"
+     },
+     {
+      "Id": "743421466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 2.wav",
+      "CachePath": "7A/{7AC415C9-C55B-34B1-E7E1-9F16855AC2FC}.wem"
+     },
+     {
+      "Id": "770301732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Event 3.wav",
+      "CachePath": "E3/{E3A52BAE-E36E-6008-2353-F3A6E73F4174}.wem"
+     },
+     {
+      "Id": "846534884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience Bed.wav",
+      "CachePath": "86/{8626F8FC-603B-79EB-9BD5-89CC2A1F27AE}.wem"
+     },
+     {
+      "Id": "932949374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Observation Deck.wav",
+      "CachePath": "CA/{CAEEB3DA-F884-9C97-643E-CB3DB8E80125}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "881214142",
+      "Name": "AmbienceBed",
+      "ObjectPath": "\\Events\\Default Work Unit\\AmbienceBed",
+      "GUID": "{C843D74C-42A8-4216-91A5-D31547C2058D}",
+      "DurationType": "OneShot",
+      "DurationMin": "27.428562",
+      "DurationMax": "27.428562",
+      "MediaRefs": [
+       {
+        "Id": "846534884"
+       }
+      ]
+     },
+     {
+      "Id": "2858168685",
+      "Name": "MusicEvents",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents",
+      "GUID": "{CC7409E8-DAF0-4E14-8D6D-47D361CB8A8B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "88668302"
+       },
+       {
+        "Id": "91275724"
+       },
+       {
+        "Id": "150121206"
+       },
+       {
+        "Id": "176409418"
+       },
+       {
+        "Id": "246746159"
+       },
+       {
+        "Id": "387013990"
+       },
+       {
+        "Id": "743421466"
+       },
+       {
+        "Id": "770301732"
+       }
+      ]
+     },
+     {
+      "Id": "1808177020",
+      "Name": "Room_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Room_Music",
+      "GUID": "{ED738CCE-4F0E-4EA0-8108-A34A66524703}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1359360203",
+         "Id": "2572679272",
+         "GUID": "{777BAB1E-822B-4410-A791-B49DFE853BA4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "5698187"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1359360203",
+         "Id": "2864961111",
+         "GUID": "{17443795-CF19-4B95-B305-29745B962772}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "566940429"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1359360203",
+         "Id": "2864961108",
+         "GUID": "{02DBC95D-FC48-47F9-BB69-E0ED7F7FE084}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "195461385"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1359360203",
+         "Id": "3464770571",
+         "GUID": "{BAD3C4C9-5C30-40EC-A81C-5E90B695D335}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "932949374"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1359360203",
+         "Id": "3965376459",
+         "GUID": "{6438A042-21B3-4947-BE46-83682E24F67E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "233156820"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1359360203",
+      "Name": "Rooms",
+      "ObjectPath": "\\Switches\\Music\\Rooms",
+      "GUID": "{62230993-6C67-4FE2-8D05-AD5CEE6AEC0F}",
+      "Switches": [
+       {
+        "Id": "2572679272",
+        "Name": "Electronics_Room",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Electronics_Room",
+        "GUID": "{777BAB1E-822B-4410-A791-B49DFE853BA4}"
+       },
+       {
+        "Id": "2864961108",
+        "Name": "Laboratory2",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Laboratory2",
+        "GUID": "{02DBC95D-FC48-47F9-BB69-E0ED7F7FE084}"
+       },
+       {
+        "Id": "2864961111",
+        "Name": "Laboratory1",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Laboratory1",
+        "GUID": "{17443795-CF19-4B95-B305-29745B962772}"
+       },
+       {
+        "Id": "3464770571",
+        "Name": "Observation_Deck",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Observation_Deck",
+        "GUID": "{BAD3C4C9-5C30-40EC-A81C-5E90B695D335}"
+       },
+       {
+        "Id": "3965376459",
+        "Name": "Security_Room",
+        "ObjectPath": "\\Switches\\Music\\Rooms\\Security_Room",
+        "GUID": "{6438A042-21B3-4947-BE46-83682E24F67E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C9AB7734-2D22-5A62-B657-5F5A3FDDF166}"
+ }
+}

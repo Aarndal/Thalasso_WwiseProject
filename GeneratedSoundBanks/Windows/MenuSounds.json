@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2805599468",
+    "Type": "User",
+    "GUID": "{DA46290E-9FA1-418E-8B57-C1FE453C49E4}",
+    "Language": "SFX",
+    "Hash": "{454D69AE-8030-D7CC-FF3F-102D119D83E6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MenuSounds",
+    "ShortName": "MenuSounds",
+    "Path": "MenuSounds.bnk"
+   }
+  ],
+  "FileHash": "{EF3A99F5-7E75-0493-0505-753D4D98E68E}"
+ }
+}

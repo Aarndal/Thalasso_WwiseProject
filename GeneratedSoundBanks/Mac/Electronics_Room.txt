@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2572679272	Electronics_Room			\Default Work Unit\Electronics_Room	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	782749925	Electronics Room	C:\Users\Aaron\Desktop\SAE\Thalasso_WwiseProject\.cache\7F\{7F7B82C4-DCBA-B6F1-808E-BF8712CE892D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Room Themes\Electronics Room		5266428
-

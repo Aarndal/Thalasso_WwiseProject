@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1591781701	Door_Closing			\Default Work Unit\Door_Closing	
+	2589897592	Door_Opening			\Default Work Unit\Door_Opening	
+	2664667690	PlayerFoot			\Default Work Unit\PlayerFoot	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1682461626	Footsteps_Material			\Default Work Unit\Footsteps_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	815678804	Hollow	Footsteps_Material			
+	1735970877	Filled	Footsteps_Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	296358285	Door Opening	D:\Thalasso\ThalassoWwiseProject\.cache\BA\{BA086E66-D323-F6C6-F62D-6F1B6DB78307}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Enviroment\Door Opening		298080
+	350783199	Hollow Footstep Placeholder	D:\Thalasso\ThalassoWwiseProject\.cache\E2\{E286AEEB-284B-2745-907B-929512160FB0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Sounds\Player Sounds\Footsteps\Hollow Footstep Placeholder		508000
+	720006300	Filled Footstep Placeholder	D:\Thalasso\ThalassoWwiseProject\.cache\BB\{BBB3C061-547F-9F34-6AC6-A15037985F6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Sounds\Player Sounds\Footsteps\Filled Footstep Placeholder		102984
+	997799082	Door Closing	D:\Thalasso\ThalassoWwiseProject\.cache\B7\{B752435C-9D3F-01DC-3DAE-E17BE2921F28}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Enviroment\Door Closing		594016
+

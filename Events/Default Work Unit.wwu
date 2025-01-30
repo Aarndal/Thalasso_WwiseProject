@@ -36,12 +36,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Electronics_Room" ID="{1EE75BAB-86D5-48C1-AB8C-9F9FF816A8FB}">
+				<Event Name="Room_Music" ID="{ED738CCE-4F0E-4EA0-8108-A34A66524703}">
 					<ChildrenList>
-						<Action Name="" ID="{E46831F1-B726-44D2-A27D-07CEA47772F2}" ShortID="177507875">
+						<Action Name="" ID="{2F5A058C-C8E9-419D-AB96-40F6067E7FD0}" ShortID="1045802055">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Electronics Room" ID="{9086739E-C5AF-464F-97AF-5976EE76C927}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+									<ObjectRef Name="Room Themes" ID="{B1DBC64E-F07E-495A-BF5B-0999E8D56FA9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicEvents" ID="{CC7409E8-DAF0-4E14-8D6D-47D361CB8A8B}">
+					<ChildrenList>
+						<Action Name="" ID="{5EE12ABB-5792-42F7-9D0D-AB9B21F81B45}" ShortID="82843558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Event Playlist" ID="{4FECD8B5-A470-437B-8FC6-8096DC8B27C9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
