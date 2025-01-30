@@ -6,7 +6,8 @@
 				<SoundBank Name="PlayerSounds" ID="{509CC69D-2FD5-4914-8D4A-9EB6A1187905}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayerFoot" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFoot_Walk" ID="{267D9BD8-960F-46D3-9D76-7294B02D398D}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFoot_Run" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_Opening" ID="{343CE991-AC7D-4BC0-8BBB-9A25099A3401}" WorkUnitID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -3,12 +3,19 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="PlayerFoot" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}">
+				<Event Name="PlayerFoot_Run" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}">
 					<ChildrenList>
 						<Action Name="" ID="{02FA348F-8051-492D-8853-1579D8FB9F62}" ShortID="463901892">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{A9FE4127-7BE6-4168-8A0D-F31D4341674E}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+									<ObjectRef Name="Footsteps Run" ID="{A9FE4127-7BE6-4168-8A0D-F31D4341674E}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1CBCBCAD-795E-448E-A0DF-E7D7857F5A1B}" ShortID="980572079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,6 +60,24 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Event Playlist" ID="{4FECD8B5-A470-437B-8FC6-8096DC8B27C9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerFoot_Walk" ID="{267D9BD8-960F-46D3-9D76-7294B02D398D}">
+					<ChildrenList>
+						<Action Name="" ID="{EAA1813B-E31C-40EB-BF91-1850AC6A5CBA}" ShortID="197616857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps Walk" ID="{E5DC7151-50E8-4478-ACB1-4D2CB3DBC363}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BE033113-144F-4316-9943-B4632544B348}" ShortID="223757995">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{52ADAACB-9EBB-4423-B4FE-BE16C49DB616}",
     "Language": "SFX",
-    "Hash": "{C7A51D25-DED8-F043-2DC3-C6FFD19A1FA1}",
+    "Hash": "{7E713384-DB0B-ECA1-A62E-9CC2C471EF7A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -112,14 +112,6 @@
       "CachePath": "E3/{E3A52BAE-E36E-6008-2353-F3A6E73F4174}.wem"
      },
      {
-      "Id": "846534884",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ambience Bed.wav",
-      "CachePath": "86/{8626F8FC-603B-79EB-9BD5-89CC2A1F27AE}.wem"
-     },
-     {
       "Id": "932949374",
       "Language": "SFX",
       "Streaming": "false",
@@ -129,20 +121,6 @@
      }
     ],
     "Events": [
-     {
-      "Id": "881214142",
-      "Name": "AmbienceBed",
-      "ObjectPath": "\\Events\\Default Work Unit\\AmbienceBed",
-      "GUID": "{C843D74C-42A8-4216-91A5-D31547C2058D}",
-      "DurationType": "OneShot",
-      "DurationMin": "27.428562",
-      "DurationMax": "27.428562",
-      "MediaRefs": [
-       {
-        "Id": "846534884"
-       }
-      ]
-     },
      {
       "Id": "2858168685",
       "Name": "MusicEvents",
@@ -293,6 +271,6 @@
     ]
    }
   ],
-  "FileHash": "{C9AB7734-2D22-5A62-B657-5F5A3FDDF166}"
+  "FileHash": "{5FB2140F-A28B-216D-E97E-F111FD506396}"
  }
 }
