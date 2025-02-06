@@ -13,6 +13,7 @@
 						<Switch Name="Laboratory1" ID="{17443795-CF19-4B95-B305-29745B962772}"/>
 						<Switch Name="Laboratory2" ID="{02DBC95D-FC48-47F9-BB69-E0ED7F7FE084}"/>
 						<Switch Name="Security_Room" ID="{6438A042-21B3-4947-BE46-83682E24F67E}"/>
+						<Switch Name="Hallway" ID="{EB6AD764-F019-43C5-BA5D-81EABB6E0167}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

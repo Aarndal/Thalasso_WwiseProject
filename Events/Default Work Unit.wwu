@@ -3,86 +3,138 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{027A3CA7-2FB0-4C81-AA08-FF6BE5823E65}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="PlayerFoot_Run" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}">
+				<Folder Name="PlayerSounds" ID="{65CC791E-D610-4D21-8453-CC6EC06F3599}" ShortID="867372444">
 					<ChildrenList>
-						<Action Name="" ID="{02FA348F-8051-492D-8853-1579D8FB9F62}" ShortID="463901892">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps Run" ID="{A9FE4127-7BE6-4168-8A0D-F31D4341674E}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{1CBCBCAD-795E-448E-A0DF-E7D7857F5A1B}" ShortID="980572079">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}">
+							<ChildrenList>
+								<Action Name="" ID="{BE074A80-F8DC-461C-9097-05A3BA4800C2}" ShortID="319262584">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door Closing" ID="{3667E37E-6838-4D2A-806F-900202EEC618}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door_Opening" ID="{343CE991-AC7D-4BC0-8BBB-9A25099A3401}">
+							<ChildrenList>
+								<Action Name="" ID="{45629345-3A2B-4FF5-AB4E-2427F89CA696}" ShortID="609215043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door Opening" ID="{C056009C-C41C-4A52-94DD-73C94CDF3CCF}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerFoot_Run" ID="{E5F43595-4124-4B13-B64B-F6B39F19F673}">
+							<ChildrenList>
+								<Action Name="" ID="{02FA348F-8051-492D-8853-1579D8FB9F62}" ShortID="463901892">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Run" ID="{A9FE4127-7BE6-4168-8A0D-F31D4341674E}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1CBCBCAD-795E-448E-A0DF-E7D7857F5A1B}" ShortID="980572079">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerFoot_Walk" ID="{267D9BD8-960F-46D3-9D76-7294B02D398D}">
+							<ChildrenList>
+								<Action Name="" ID="{EAA1813B-E31C-40EB-BF91-1850AC6A5CBA}" ShortID="197616857">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Walk" ID="{E5DC7151-50E8-4478-ACB1-4D2CB3DBC363}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BE033113-144F-4316-9943-B4632544B348}" ShortID="223757995">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Door_Opening" ID="{343CE991-AC7D-4BC0-8BBB-9A25099A3401}">
+				</Folder>
+				<Folder Name="Music" ID="{18E52C7D-9731-409A-95F5-EF0061D54C3B}" ShortID="455559111">
 					<ChildrenList>
-						<Action Name="" ID="{45629345-3A2B-4FF5-AB4E-2427F89CA696}" ShortID="609215043">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Door Opening" ID="{C056009C-C41C-4A52-94DD-73C94CDF3CCF}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="AmbienceBed" ID="{75A87CD6-2FE7-4920-A0A5-616880CC3C3F}">
+							<ChildrenList>
+								<Action Name="" ID="{A913F0B3-B571-47F3-AD36-B6A270E75EBE}" ShortID="151401180">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bed" ID="{070D36E3-1748-4C4C-ADDF-2523439C53FC}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Room_Music" ID="{ED738CCE-4F0E-4EA0-8108-A34A66524703}">
+							<ChildrenList>
+								<Action Name="" ID="{2F5A058C-C8E9-419D-AB96-40F6067E7FD0}" ShortID="1045802055">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Room Themes" ID="{B1DBC64E-F07E-495A-BF5B-0999E8D56FA9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Chase_Music" ID="{445D2C74-962D-4675-BFB2-50FB2F943DDF}">
+							<ChildrenList>
+								<Action Name="" ID="{5E6202FD-3B7C-420A-81FA-EF0AE27F39C3}" ShortID="471328245">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chase Music" ID="{5CDC0D8A-7183-4080-A303-70F5EC99CB0A}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Last_Chase_Music" ID="{046BF85A-8348-4749-9197-92DD4117DCF1}">
+							<ChildrenList>
+								<Action Name="" ID="{E24FDC30-27DA-408B-83EE-7076E35DF083}" ShortID="832710845">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Last Chase" ID="{5779CE34-BA78-43D6-AE2C-22904E5E04F4}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="First_Time_Station" ID="{33EE704D-781B-4ACF-BEAD-F675CE49BE65}">
+							<ChildrenList>
+								<Action Name="" ID="{ED0E0D8F-6D73-4678-B906-26100D163F70}" ShortID="721273088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="First Time Station" ID="{5833E2AD-FA29-4444-AE8A-157A07EED1EF}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="First_Time_Monster" ID="{AF2BD6F6-F8FB-47B7-8CD2-370535495D49}">
+							<ChildrenList>
+								<Action Name="" ID="{3E16DFCB-1E83-40E3-9E30-2512C382371B}" ShortID="244559552">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="First Time Monster" ID="{243016C3-86D0-4540-80AB-C638B76F8572}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Door_Closing" ID="{E6672F19-8DCF-45B1-AE3A-D50DDDB560CE}">
-					<ChildrenList>
-						<Action Name="" ID="{BE074A80-F8DC-461C-9097-05A3BA4800C2}" ShortID="319262584">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Door Closing" ID="{3667E37E-6838-4D2A-806F-900202EEC618}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Room_Music" ID="{ED738CCE-4F0E-4EA0-8108-A34A66524703}">
-					<ChildrenList>
-						<Action Name="" ID="{2F5A058C-C8E9-419D-AB96-40F6067E7FD0}" ShortID="1045802055">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Room Themes" ID="{B1DBC64E-F07E-495A-BF5B-0999E8D56FA9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="MusicEvents" ID="{CC7409E8-DAF0-4E14-8D6D-47D361CB8A8B}">
-					<ChildrenList>
-						<Action Name="" ID="{5EE12ABB-5792-42F7-9D0D-AB9B21F81B45}" ShortID="82843558">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Event Playlist" ID="{4FECD8B5-A470-437B-8FC6-8096DC8B27C9}" WorkUnitID="{8DEC470C-A376-4EC7-A3E0-0BCF90BD2F6D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayerFoot_Walk" ID="{267D9BD8-960F-46D3-9D76-7294B02D398D}">
-					<ChildrenList>
-						<Action Name="" ID="{EAA1813B-E31C-40EB-BF91-1850AC6A5CBA}" ShortID="197616857">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps Walk" ID="{E5DC7151-50E8-4478-ACB1-4D2CB3DBC363}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{BE033113-144F-4316-9943-B4632544B348}" ShortID="223757995">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Clothing" ID="{122F53F9-1F00-4C65-916A-1ACA5CD76DAD}" WorkUnitID="{576CCE17-46EC-4A19-9204-77C8A4F6D6A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

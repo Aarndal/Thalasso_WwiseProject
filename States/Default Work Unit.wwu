@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BAEA09C0-640A-4C43-942D-F4C30A8E9B4E}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{BAEA09C0-640A-4C43-942D-F4C30A8E9B4E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BAEA09C0-640A-4C43-942D-F4C30A8E9B4E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Chased" ID="{05A523FD-3059-4FDD-ACF7-EE414943425D}">
+					<ChildrenList>
+						<State Name="None" ID="{AE79FC41-59E8-438D-9B7C-6A935649954A}"/>
+						<State Name="Running" ID="{10851E1A-7488-4B6E-A17C-37DB2E62D5AF}"/>
+						<State Name="Searching" ID="{73675593-A31D-4DF8-9693-5A40B9EB0E71}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Last_Chase" ID="{87583462-CA72-46D8-9959-A65BF995B5B0}">
+					<ChildrenList>
+						<State Name="None" ID="{094EBDF6-407A-48F9-9285-FCC2C4874A8A}"/>
+						<State Name="Start" ID="{ECC23E26-D7EB-410C-9061-26C32C9031DF}"/>
+						<State Name="Middle" ID="{5AEF91AA-32AA-4501-BDC3-11B52BC93549}"/>
+						<State Name="Almost_there" ID="{154C98BF-C494-45C0-B95F-2B994FBBF8A8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
